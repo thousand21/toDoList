@@ -1,0 +1,78 @@
+.divGris{
+    width: 70%;
+    height: 500px;
+    background-color: lightsteelblue;
+    margin-top: 50px;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.ligne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+input{
+    width: 50%;
+    height: 20px;
+    border-radius: 5px;
+    
+}
+.ligne1{
+    margin-top: 40px;
+}
+.addButton{
+margin-left: 5px;
+background-color: transparent;
+color: blue;
+width: 100px;
+}
+.ligne2{
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+    width: 50%;
+    border: solid 0.1px gray;
+    
+}
+p{
+    color: blue;
+}
+.bouton3{
+    background-color: blue;
+    color: white;
+    margin-right: 20px;
+    width: 60px;
+    border-radius: 5px;
+}
+.boutonClear{
+    background-color: red;
+    color: white;
+}
+.tache{
+display: flex;
+justify-content: space-around;
+border: solid 0.1px;
+width: 90%;
+margin-top: 10px;
+}
+.ligne4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tacheGauche{
+    display: flex;
+    justify-content: left;
+}
+.tacheDroite{
+    display: flex;
+    justify-content:right ;
+}
+.divTache{
+width: 50%;
+}
+
